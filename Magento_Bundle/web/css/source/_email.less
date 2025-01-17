@@ -1,0 +1,36 @@
+/*
+ * Copyright © Acid Unit (https://acid.7prism.com). All rights reserved.
+ * See LICENSE file for license details.
+ */
+
+//
+//  Bundle Module Styles
+//  ---------------------------------------------
+
+//
+//  Bundle Items
+//  ---------------------------------------------
+
+.email-items {
+    .bundle-option-label {
+        > td {
+            padding: 0 @email-content__padding__l 0 @email-content__padding__base; // @rtl
+        }
+    }
+
+    .bundle-option-value {
+        > td {
+            padding: 0 @email-content__padding__base @email-content__padding__base;
+
+            &.item-info {
+                padding: 0 @email-content__padding__xl @email-content__padding__base @email-content__padding__base; // @rtl
+            }
+        }
+    }
+
+    tr.bundle-option-value + tr {
+        > td.item-extra {
+            padding-top: @email-content__padding__base;
+        }
+    }
+}
