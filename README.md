@@ -2,6 +2,8 @@
 
 Magento 2 Blank theme RTL.
 
+Can be used as a parent for themes that use Hebrew, Arabic, and other RTL script languages.
+
 Based on Blank theme `v100.4.7-p1`, which is built-in to Magento `v2.4.7-p1`
 
 It was not tested on the previous Magento versions, but as long as it is Magento 2.4.X,
