@@ -32,6 +32,13 @@ for `<body>` tag, `dir="rtl"` attribute for `<html>` tag, and left/right styles 
 
 `composer require acid-unit/theme-frontend-blank-rtl`
 
+# Usage
+
+To preview the theme, use `Magento Blank RTL (Acid Unit)` theme for Store View under
+`Content > Design > Configuration > Applied Theme` admin section.
+
+To use theme as a parent, use `<parent>AcidUnit/blank-rtl</parent>` in your `theme.xml` file.
+
 # Additional
 
 - `@icon-prev` and `@icon-next` icon variables values are swapped too
